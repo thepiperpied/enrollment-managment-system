@@ -3,12 +3,10 @@
 const {
   GraphQLServer
 } = require('graphql-yoga');
-import {
-  typeDefs
-} from './typedefs';
-import {
-  resolvers
-} from './resolvers';
+
+const typeDefs = require('./typedefs/index').typeDefs;
+
+const resolvers = require('./resolvers/index').resolver;
 
 
 require('dotenv').config();

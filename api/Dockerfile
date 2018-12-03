@@ -1,4 +1,4 @@
-FROM node:10.10.0
+FROM node:11.3.0
 
 RUN mkdir -p /app
 
@@ -10,4 +10,4 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 4000:4000
+EXPOSE 3100:3100

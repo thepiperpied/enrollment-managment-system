@@ -1,6 +1,6 @@
-
-export const typeDefs = `
-
+module.exports = {
+  typeDefs: `
+ 
   input regInput{
     firstName: String!
     middleName: String
@@ -136,3 +136,4 @@ export const typeDefs = `
   }
 
   `
+};
